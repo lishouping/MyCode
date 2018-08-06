@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         btn_end.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                animationDrawable.stop();
+                animationDrawable.stop();
                 loginDailogFragment = new LoginDailogFragment();
                 loginDailogFragment.show(getFragmentManager(), "login");
             }
