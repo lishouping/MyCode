@@ -28,6 +28,7 @@ public class AnnexAdapter extends BaseQuickAdapter<HashMap<String,Object>,BaseVi
     @Override
     protected void convert(BaseViewHolder helper, HashMap<String, Object> item) {
 
-
+        // 添加注释
+        
     }
 }
